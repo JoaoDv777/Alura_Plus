@@ -1,0 +1,302 @@
+/*
+Informações para edição
+
+- width da pagina inteira:
+w:1440
+- heingt da pagina inteira:
+h:3435
+*/
+
+/* Configurações da pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: #00030C;
+}
+
+/* Fontes de texto */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Header */
+.principal{
+    background-image: url(./Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    min-width: 400px;
+    max-width: 1862px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Tl_principal{
+    text-align: center;
+    max-width: 588px;
+    min-height: 102px;
+    font-size: 2.8em;
+    color: #FFFFFF;
+    margin:  170px 0 20px 140px;
+}
+.logo_alura_headr{
+    margin: 0 0 0 -40px;
+}
+/* botoes do header */
+.buttons_header{
+    color: none;
+}
+.button_assinatura01{
+    margin:  50px 0 20px 130px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.8em;
+    text-decoration: none;
+    background-color: #167BF7;
+    padding: 15px 10px 0px 10px;
+    min-width: 312px;
+    max-width: 612px;
+    min-height: 56px;
+    max-height: 30px;
+    display: block;
+    border-radius: 8px;
+}
+.button_assinatura02{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 20px 5px 130px;
+    font-size: 1.8em;
+    text-decoration: none;
+    border: solid 2px #FFFFFF;
+    background-color: none;
+    padding: 15px 10px 0px 10px;
+    min-width: 312px;
+    max-width: 612px;
+    min-height: 56px;
+    max-height: 30px;
+    display: block;
+    border-radius: 8px;
+}
+.button_assinatura01 a:hover{
+    color: none;
+}
+.button_assinatura02 a:hover{
+    color: none;
+}
+.descricao_buttons{
+    color: #C0C0C0;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+}
+
+/* Conteudo principal */
+.universal_container{
+    color: none;
+}
+
+/* container 1 */
+.container01{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 300px;
+}
+
+.Pc_cell_img_c1{
+    width: 35%;
+    margin: 40px 90px 40px 250px;
+}
+.content_c1{
+    width: 580px;
+    height: 58px;
+    margin: 40px;
+}
+.Tl_c1{
+    color: #FFFFFF;
+    font-size: 4.8em;
+}
+.text_c1{
+    font-size: 1.6em;
+    color: #C0C0C0;
+}
+
+/* container 2 */
+.container02{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 300px;
+    margin-left: 220px;
+}
+.content_c2{
+    width: 588px;
+    height: 144px;
+    margin: 40px 130px 40px 600px;
+}
+.text_c2{
+    font-size: 1.6em;
+    color: #C0C0C0;
+    margin: 10px 10px 20px 10px;
+}
+.button_c2{
+    color: #FFFFFF;
+    font-size: 1.6em;
+    margin: 20px 10px 10px 10px;
+    text-decoration: none;
+    background-color: #167BF7;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    max-width: 162px;
+    min-width: 90px;
+    max-height: 56px;
+    min-height: 20px;
+}
+.Ex_img_c2{
+    width: 35%;
+    margin: 40px 90px 40px 60px;
+}
+/* container 3 */
+.container03{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 300px;
+}
+.Pc_img_c3{
+    width: 35%;
+    margin: 40px 90px 40px 250px;
+}
+.content_c2{
+    width: 580px;
+    height: 58px;
+    margin: 40px;  
+}
+.Tl_c3{
+    color: #FFFFFF;
+    font-size: 4.8em;
+}
+.text_c3{
+    font-size: 1.6em;
+    color: #F9F9F9;
+    width: 530px;
+}
+
+/* container 4 */
+.Tl_c4{/* titulo principal */
+    color: #FFFFFF;
+    font-size: 4.8em;
+    margin: 0 0 70px 0;
+}
+.container04{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.container_exemplos{
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+    margin: 20px;
+}
+/* exemplo TV */
+.container_TV{
+    width: 322px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 40px 0 0;
+}
+.ex_tv_c4{
+    width: 90%;
+    margin: 0 0 0 15px;
+}
+.Tl01_c4{
+    font-size: 3.2em;
+    color: #FFFFFF;
+}
+/* exemplo PC */
+.container_PC{
+    width: 322px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 40px 0 0;
+}
+.ex_pc_c4{
+    width: 95%;
+    
+    margin: 0 0 0 7px;
+}
+.Tl02_c4{
+    font-size: 3.2em;
+    color: #FFFFFF;
+}
+/* ecemplo CELL */
+.container_CELL{
+    width: 322px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ex_cell_c4{
+    width: 95%;
+    color: none;
+}
+.Tl03_c4{
+    font-size: 3.2em;
+    color:#FFFFFF;
+}
+
+/* roda pe da pagina */
+.rodape{/* edição geral */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 20px 20px 400px;
+}
+.alura_logo_foot{
+    width: 7%;
+    margin: 5px 5px 30px 490px;
+}
+.descicao01{
+    display: flex;
+    align-items: baseline;
+    width: 1081px;
+    color: #FFFFFF;
+    margin: 10px;
+    font-size: 1.6em;
+}
+.descicao01 p{
+    margin: 0 5px 0 12px;
+}
+.descricao02{
+    margin: 5px 5px 5px 180px;
+    color: #c0c0c0;
+    width: 700px;
+    font-size: 1.4em;
+}
+.descricao03{
+    margin: 5px 5px 5px 80px;
+    color: #C0C0C0;
+    width: 900px;
+    font-size: 1.4em;
+}
+
+
